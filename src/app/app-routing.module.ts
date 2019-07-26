@@ -5,7 +5,7 @@ import { LoginComponent } from "./login/login.component";
 
 const routes: Routes = [
     { path: "", component: LoginComponent },
-    { path: "", redirectTo: "/home", pathMatch: "full" },
+    // { path: "", redirectTo: "/home", pathMatch: "full" },
     { path: "home", loadChildren: "~/app/home/home.module#HomeModule" },
     { path: "browse", loadChildren: "~/app/browse/browse.module#BrowseModule" },
     { path: "search", loadChildren: "~/app/search/search.module#SearchModule" },

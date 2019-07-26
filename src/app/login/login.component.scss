@@ -9,16 +9,28 @@ FlexboxLayout {
   );
   StackLayout {
     width: 300;
+    background: rgb(255, 255, 255);
+    padding: 20;
     TextField {
       margin-bottom: 10;
     }
-    button {
+    .login {
       margin-bottom: 5;
       background-image: linear-gradient(
         -225deg,
         #a445b2 0%,
         #d41872 52%,
         #ff0066 100%
+      );
+      color: #ffffff;
+    }
+    .register {
+      margin-bottom: 5;
+      background-image: linear-gradient(
+        -225deg,
+        #1708f1 0%,
+        #2931ac 52%,
+        #8c0dc7 100%
       );
       color: #ffffff;
     }
